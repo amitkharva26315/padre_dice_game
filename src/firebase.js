@@ -25,6 +25,13 @@ const postsCollection = db.collection('posts')
 const commentsCollection = db.collection('comments')
 const likesCollection = db.collection('likes')
 
+const employeeCollection = db.collection('employee')
+// const stateProgressionCollection = db.collection('state_progression')
+// const statsCollection = db.collection('stats')
+// const tablasRanksCollection = db.collection('tablas_ranks')
+// const categoriesCollection = db.collection('categories')
+// const talentsTablesCollection = db.collection('talents_tables')
+
 // export utils/refs
 export {
   db,
@@ -32,5 +39,11 @@ export {
   usersCollection,
   postsCollection,
   commentsCollection,
-  likesCollection
+  likesCollection,
+  employeeCollection
+  // stateProgressionCollection,
+  // statsCollection,
+  // tablasRanksCollection,
+  // categoriesCollection,
+  // talentsTablesCollection
 }

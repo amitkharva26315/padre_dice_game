@@ -19,10 +19,25 @@ fb.postsCollection.orderBy('createdOn', 'desc').onSnapshot(snapshot => {
   store.commit('setPosts', postsArray)
 })
 
+
+fb.employeeCollection.onSnapshot(snapshot => {
+  let employeesArray = []
+
+  snapshot.forEach(doc => {
+    let employee = doc.data()
+    employee.id = doc.id
+
+    employeesArray.push(employee)
+  })
+
+  store.commit('setEmployees', employeesArray)
+})
+
 const store = new Vuex.Store({
   state: {
     userProfile: {},
-    posts: []
+    posts: [],
+    employees: []
   },
   mutations: {
     setUserProfile(state, val) {
@@ -33,9 +48,32 @@ const store = new Vuex.Store({
     },
     setPosts(state, val) {
       state.posts = val
+    },
+    setEmployees(state, val) {
+      state.employees = val
     }
   },
   actions: {
+    async createEmployee({ state, commit }, employee) {
+      // create employee in firebase
+      await fb.employeeCollection.add({
+        createdOn: new Date(),
+        content: employee.content,
+        userId: fb.auth.currentUser.uid,
+        userName: state.userProfile.name
+      })
+    },
+    async updateEmployee({ state, commit }, employee) {
+      // update employee in firebase
+      await fb.employeeCollection.doc(employee.id).update({
+        content: employee.content
+      })
+    },
+    async deleteEmployee({ state, commit }, employee_id) {
+      console.log(employee_id);
+      // update employee in firebase
+      await fb.employeeCollection.doc(employee_id).delete()
+    },
     async login({ dispatch }, form) {
       // sign user in
       const { user } = await fb.auth.signInWithEmailAndPassword(form.email, form.password)

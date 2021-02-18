@@ -4,7 +4,7 @@
       <CommentModal v-if="showCommentModal" :post="selectedPost" @close="toggleCommentModal()"></CommentModal>
     </transition>
     <section>
-      <div class="col1">
+      <!-- <div class="col1">
         <div class="profile">
           <h5>{{ userProfile.name }}</h5>
           <p>{{ userProfile.title }}</p>
@@ -16,8 +16,8 @@
             </form>
           </div>
         </div>
-      </div>
-      <div class="col2">
+      </div> -->
+      <!-- <div class="col2">
         <div v-if="posts.length">
           <div v-for="post in posts" :key="post.id" class="post">
             <h5>{{ post.userName }}</h5>
@@ -32,6 +32,33 @@
         </div>
         <div v-else>
           <p class="no-results">There are currently no posts</p>
+        </div>
+      </div> -->
+      <div class="col1">
+        <div class="profile">
+          <h5>{{ userProfile.name }}</h5>
+          <p>{{ userProfile.title }}</p>
+          <div class="create-post">
+            <p>create a employee</p>
+            <form @submit.prevent>
+              <textarea v-model.trim="employee.content"></textarea>
+              <button @click="createEmployee()" :disabled="employee.content === ''" class="button">Create Employee</button>
+              <button @click="updateEmployee()" :disabled="employee.content === ''" class="button">Update Employee</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="col2">
+        <div v-if="employees.length">
+          <div v-for="employee in employees" :key="employee.id" class="post">
+            <!-- {{employee}} -->
+            <p>{{ employee.content | trimLength }}</p>
+            <button type="button" @click="editEmployee(employee)">edit</button>
+            <button type="button" @click="deleteEmployee(employee.id)">delete</button>
+          </div>
+        </div>
+        <div v-else>
+          <p class="no-results">There are currently no employees</p>
         </div>
       </div>
     </section>
@@ -78,6 +105,10 @@ export default {
       post: {
         content: ''
       },
+      employee: {
+        id: '',
+        content: ''
+      },
       showCommentModal: false,
       selectedPost: {},
       showPostModal: false,
@@ -86,9 +117,26 @@ export default {
     }
   },
   computed: {
-    ...mapState(['userProfile', 'posts'])
+    ...mapState(['userProfile', 'posts', 'employees'])
   },
   methods: {
+    createEmployee() {
+      this.$store.dispatch('createEmployee', { content: this.employee.content })
+      this.employee.content = ''
+    },
+    updateEmployee() {
+      this.$store.dispatch('updateEmployee', { id: this.employee.id, content: this.employee.content })
+      this.employee.content = ''
+    },
+    editEmployee(employee_data) {
+      this.employee.id = employee_data.id;
+      this.employee.content = employee_data.content;
+    },
+    deleteEmployee(id) {
+      if(confirm("Are you sure want to delete current employee?")) {
+        this.$store.dispatch('deleteEmployee', id)
+      }
+    },
     createPost() {
       this.$store.dispatch('createPost', { content: this.post.content })
       this.post.content = ''
