@@ -1,0 +1,954 @@
+[
+    {
+      "Name": "Accelerated Healing",
+      "Desc": "½ Natural Recovery Healing Time (except Magic Recovery)",
+      "afectedSkill": "XXXX",
+      "Bonus": null,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Combat Awareness",
+      "Desc": "-30 Perception modifier during Combat (as free action) instead of -50",
+      "afectedSkill": "Combat Perception",
+      "Bonus": 20,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Commanding Demeanor",
+      "Desc": "+20 to all Command rolls. Successful roll can grant allies a +10 to OB & DD until they get hit",
+      "afectedSkill": "Command",
+      "Bonus": 20,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Ear for Music",
+      "Desc": "+25 to Singing & Play Instruments Skills",
+      "afectedSkill": "Play Instrument",
+      "Bonus": 25,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Ear for Music",
+      "Desc": "",
+      "afectedSkill": "Singing",
+      "Bonus": 25,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Fair",
+      "Desc": "+10 to Communication reactive and Communication structured categories,  and +15 to appearance (max 105). May only be taken on 1st Level.",
+      "afectedSkill": "Communication reactive",
+      "Bonus": 10,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Fair",
+      "Desc": "",
+      "afectedSkill": "Communication structured",
+      "Bonus": 10,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Fair",
+      "Desc": "",
+      "afectedSkill": "Appearance",
+      "Bonus": 15,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "General Weapon Master",
+      "Desc": "+10 to all character weapon categories.",
+      "afectedSkill": "Chains",
+      "Bonus": 10,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "General Weapon Master",
+      "Desc": "",
+      "afectedSkill": "Crush & Cleave",
+      "Bonus": 10,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "General Weapon Master",
+      "Desc": "",
+      "afectedSkill": "Swords",
+      "Bonus": 10,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "General Weapon Master",
+      "Desc": "",
+      "afectedSkill": "Misile",
+      "Bonus": 10,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "General Weapon Master",
+      "Desc": "",
+      "afectedSkill": "Misile Powder",
+      "Bonus": 10,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "General Weapon Master",
+      "Desc": "",
+      "afectedSkill": "Polearms",
+      "Bonus": 10,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "General Weapon Master",
+      "Desc": "",
+      "afectedSkill": "Thrown",
+      "Bonus": 10,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "General Weapon Master",
+      "Desc": "",
+      "afectedSkill": "Thrust",
+      "Bonus": 10,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "General Weapon Master",
+      "Desc": "",
+      "afectedSkill": "Slings",
+      "Bonus": 10,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Golden Throat",
+      "Desc": "+15 to any maneuver where verbally attempts to calm or persuade. (singing, public speaking, duping, trade, acting, etc.). May only be taken at 1st level.",
+      "afectedSkill": "Acting",
+      "Bonus": 15,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Golden Throat",
+      "Desc": "",
+      "afectedSkill": "Singing",
+      "Bonus": 15,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Golden Throat",
+      "Desc": "",
+      "afectedSkill": "Story Telling",
+      "Bonus": 15,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Golden Throat",
+      "Desc": "",
+      "afectedSkill": "Duping",
+      "Bonus": 15,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Golden Throat",
+      "Desc": "",
+      "afectedSkill": "Trade",
+      "Bonus": 15,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Golden Throat",
+      "Desc": "",
+      "afectedSkill": "Convince",
+      "Bonus": 15,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Golden Throat",
+      "Desc": "",
+      "afectedSkill": "Seduction",
+      "Bonus": 15,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Golden Throat",
+      "Desc": "",
+      "afectedSkill": "Public Speaking",
+      "Bonus": 15,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Instinctive Defense",
+      "Desc": "+10 to DB for all attacks. If aware of an incoming attack, may apply extra +10 to DB.",
+      "afectedSkill": "DB",
+      "Bonus": 10,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Intensive Eyes",
+      "Desc": "+10 to all skill where he interacts with other people (duping, trading, seduction, diplomacy). The other person must be close enough to be looked directly by him.",
+      "afectedSkill": "Duping",
+      "Bonus": 10,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Intensive Eyes",
+      "Desc": "",
+      "afectedSkill": "Seduction",
+      "Bonus": 10,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Intensive Eyes",
+      "Desc": "",
+      "afectedSkill": "Trade",
+      "Bonus": 10,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Intensive Eyes",
+      "Desc": "",
+      "afectedSkill": "Diplomacy",
+      "Bonus": 10,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Miracle worker",
+      "Desc": "you gain a +20 to Medicine category, also, all fate points spent in healing maneuvers grant an 80 instead of a 50",
+      "afectedSkill": "Medicine",
+      "Bonus": 20,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Outdoorsman",
+      "Desc": "+15 to outdoors category",
+      "afectedSkill": "Ourtdoors Technical",
+      "Bonus": 15,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Outdoorsman",
+      "Desc": "",
+      "afectedSkill": "Outdoors Natural",
+      "Bonus": 15,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Resistance -all (Mayor)",
+      "Desc": "+10 bonus to all Resistance Rolls. Cannot be taken withother tlents that affect Resistance",
+      "afectedSkill": "RR Will",
+      "Bonus": 10,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Resistance -all (Mayor)",
+      "Desc": "",
+      "afectedSkill": "RR stam",
+      "Bonus": 10,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Resistance -all (Mayor)",
+      "Desc": "",
+      "afectedSkill": "RR Magic",
+      "Bonus": 10,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Resistance -all (Greater)",
+      "Desc": "+20 bonus to all Resistance Rolls. Cannot be taken withother tlents that affect Resistance",
+      "afectedSkill": "RR Will",
+      "Bonus": 20,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Resistance -all (Greater)",
+      "Desc": "",
+      "afectedSkill": "RR stam",
+      "Bonus": 20,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Resistance -all (Greater)",
+      "Desc": "",
+      "afectedSkill": "RR Magic",
+      "Bonus": 20,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Subtle",
+      "Desc": "+10 bonus on all his subterfuge active skills.",
+      "afectedSkill": "Subterfuge Active",
+      "Bonus": 10,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Natural Commander",
+      "Desc": "+10 to warfare category",
+      "afectedSkill": "Warfare",
+      "Bonus": 10,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Artistic",
+      "Desc": "+10 Performance category",
+      "afectedSkill": "Performing",
+      "Bonus": 10,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Athletic",
+      "Desc": "+10 to Skills Climbing, Jumping, Acrobatics, Swimming",
+      "afectedSkill": "Acrobatics",
+      "Bonus": 10,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Athletic",
+      "Desc": "",
+      "afectedSkill": "Jumping",
+      "Bonus": 10,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Athletic",
+      "Desc": "",
+      "afectedSkill": "Climbing",
+      "Bonus": 10,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Athletic",
+      "Desc": "",
+      "afectedSkill": "Swimming",
+      "Bonus": 10,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Blazing Speed",
+      "Desc": "+5' (1.5 m.) to BMR. May only be taken on 1st level",
+      "afectedSkill": "BMR",
+      "Bonus": 1.5,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Charismatic",
+      "Desc": "+10 to skills seduction, trade, public speaking and convince",
+      "afectedSkill": "Seduction",
+      "Bonus": 10,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Charismatic",
+      "Desc": "",
+      "afectedSkill": "Trade",
+      "Bonus": 10,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Charismatic",
+      "Desc": "",
+      "afectedSkill": "Convince",
+      "Bonus": 10,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Charismatic",
+      "Desc": "",
+      "afectedSkill": "Public Speaking",
+      "Bonus": 10,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Climber",
+      "Desc": "+20 to all Climbing maneuvers",
+      "afectedSkill": "Climbing",
+      "Bonus": 20,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Diver",
+      "Desc": "+20 to Swimming Skill",
+      "afectedSkill": "Swimming",
+      "Bonus": 20,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Trap Specialist",
+      "Desc": "+15 bonus to Disarm Locks & Traps",
+      "afectedSkill": "Disarm Locks & Traps",
+      "Bonus": 15,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Enhance Senses",
+      "Desc": "+10 to Perception active and passive rolls.",
+      "afectedSkill": "Perception Active",
+      "Bonus": 10,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Enhance Senses",
+      "Desc": "",
+      "afectedSkill": "Perception Passive",
+      "Bonus": 10,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Extremely Nimble",
+      "Desc": "+10 to Stalking & Hiding, contorsions and Acrobatics skills",
+      "afectedSkill": "Acrobatics",
+      "Bonus": 10,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Extremely Nimble",
+      "Desc": "",
+      "afectedSkill": "Contortions",
+      "Bonus": 10,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Extremely Nimble",
+      "Desc": "",
+      "afectedSkill": "Stalking/Hiding",
+      "Bonus": 10,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Face in the crowd",
+      "Desc": "+20 to mingle",
+      "afectedSkill": "Mingling",
+      "Bonus": 20,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Geographical Awareness",
+      "Desc": "+10 to navigation and cartography.",
+      "afectedSkill": "Cartography",
+      "Bonus": 10,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Geographical Awareness",
+      "Desc": "",
+      "afectedSkill": "Navigation",
+      "Bonus": 10,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Herbalist",
+      "Desc": "+5 to cooking, foraging, herbcraft and poison lore.",
+      "afectedSkill": "Cooking",
+      "Bonus": 5,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Herbalist",
+      "Desc": "",
+      "afectedSkill": "Poisoning",
+      "Bonus": 5,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Herbalist",
+      "Desc": "",
+      "afectedSkill": "Foraging",
+      "Bonus": 5,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Herbalist",
+      "Desc": "",
+      "afectedSkill": "Botanics",
+      "Bonus": 5,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "High Jumper",
+      "Desc": "+10 to jumping skill.",
+      "afectedSkill": "Jumping",
+      "Bonus": 10,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Lie Perception",
+      "Desc": "+20 to lie perception maneuvers. Distance may hinder your percetion",
+      "afectedSkill": "Lie Perception",
+      "Bonus": 20,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Lightning Reflexes",
+      "Desc": "+5 to initiative roll. Cannot be taken together with Combat Reflexes. If so cancel previous.",
+      "afectedSkill": "Initiative",
+      "Bonus": 5,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Manual Deftness",
+      "Desc": "+10 to sleight of hand & disarm locks and traps.",
+      "afectedSkill": "Sleight of Hand",
+      "Bonus": 10,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Manual Deftness",
+      "Desc": "",
+      "afectedSkill": "Disarm Locks & Traps",
+      "Bonus": 10,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Master Craftsman",
+      "Desc": "+10 bonus to all crafting skills and +35 to a particular one.",
+      "afectedSkill": "Crafts Fine",
+      "Bonus": 10,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Master Craftsman",
+      "Desc": "",
+      "afectedSkill": "Crafts Gross",
+      "Bonus": 10,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Master Craftsman",
+      "Desc": "",
+      "afectedSkill": "Crafting Lores",
+      "Bonus": 10,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Natural Facility with Armor",
+      "Desc": "+10 to armor skill, reduces the minimum armor penalty by 5",
+      "afectedSkill": "Armor",
+      "Bonus": 10,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Natural Facility with Armor",
+      "Desc": "",
+      "afectedSkill": "Armor Penalty",
+      "Bonus": -5,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Nimble Skeleton",
+      "Desc": "+25 to contortions.",
+      "afectedSkill": "Contortions",
+      "Bonus": 25,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Physick",
+      "Desc": "+10 bonus to the medicine category",
+      "afectedSkill": "Medicine",
+      "Bonus": 10,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Quick Calculator",
+      "Desc": "+25 to trading.",
+      "afectedSkill": "Trade",
+      "Bonus": 25,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Quiet Stride",
+      "Desc": "+20 to Stalking&Hiding maneuvers.",
+      "afectedSkill": "Stalking/Hiding",
+      "Bonus": 20,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Resistance Stamina (Minor)",
+      "Desc": "+10 bonus to all Stamina-based Resistance Rolls. Cannot be taken withother tlents that affect Resistance",
+      "afectedSkill": "RR stam",
+      "Bonus": 10,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Resistance Stamina (Mayor)",
+      "Desc": "+20 bonus to all Stamina-based Resistance Rolls. Cannot be taken withother tlents that affect Resistance",
+      "afectedSkill": "RR stam",
+      "Bonus": 20,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Resistance Will (Minor)",
+      "Desc": "+10 bonus to all Will-based Resistance Rolls. Cannot be taken withother tlents that affect Resistance",
+      "afectedSkill": "RR Will",
+      "Bonus": 10,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Resistance Will (Mayor)",
+      "Desc": "+20 bonus to all Will-based Resistance Rolls. Cannot be taken withother tlents that affect Resistance",
+      "afectedSkill": "RR Will",
+      "Bonus": 20,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Ropecraft",
+      "Desc": "+25 bonus to the ropemastery skill.",
+      "afectedSkill": "Ropemastery",
+      "Bonus": 25,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Scholar",
+      "Desc": "+10 bonus to Science Analytic, Socio Economics and Social Sciences skills",
+      "afectedSkill": "Science Analytic",
+      "Bonus": 10,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Scholar",
+      "Desc": "",
+      "afectedSkill": "Socio Economics",
+      "Bonus": 10,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Scholar",
+      "Desc": "",
+      "afectedSkill": "Social Sciences",
+      "Bonus": 10,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Shield Training",
+      "Desc": "Enables the Trained bonus on any shield",
+      "afectedSkill": "DB Shield",
+      "Bonus": 1,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Taletelling",
+      "Desc": "+25 to storytelling and poetry skills",
+      "afectedSkill": "Story Telling",
+      "Bonus": 25,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Taletelling",
+      "Desc": "",
+      "afectedSkill": "Poetry",
+      "Bonus": 25,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Toughness",
+      "Desc": "+20 to endurance skill.",
+      "afectedSkill": "Endurance",
+      "Bonus": 20,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Treacherous Blow",
+      "Desc": "+10 to Dirty Fighting maneuver",
+      "afectedSkill": "Dirty Fighting",
+      "Bonus": 10,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Battle Confusion",
+      "Desc": "You have a -30 penalty to your battle perception",
+      "afectedSkill": "Combat Perception",
+      "Bonus": -30,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Crippled",
+      "Desc": "You have lost some mobility because you are crippled in one leg. Your movement is reduced by half. You receive a -10 to all Ag maneuvers and a   -3 to your Qu bonus.",
+      "afectedSkill": "ag",
+      "Bonus": -10,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Crippled",
+      "Desc": "",
+      "afectedSkill": "qu",
+      "Bonus": -3,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Disavowed Weapons",
+      "Desc": "You have vowed not to use weapons. You receive a -15 penalty in all the weapon and weapon related skills.",
+      "afectedSkill": "Chains",
+      "Bonus": -15,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Disavowed Weapons",
+      "Desc": "",
+      "afectedSkill": "Crush & Cleave",
+      "Bonus": -15,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Disavowed Weapons",
+      "Desc": "",
+      "afectedSkill": "Swords",
+      "Bonus": -15,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Disavowed Weapons",
+      "Desc": "",
+      "afectedSkill": "Misile",
+      "Bonus": -15,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Disavowed Weapons",
+      "Desc": "",
+      "afectedSkill": "Misile Powder",
+      "Bonus": -15,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Disavowed Weapons",
+      "Desc": "",
+      "afectedSkill": "Polearms",
+      "Bonus": -15,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Disavowed Weapons",
+      "Desc": "",
+      "afectedSkill": "Thrown",
+      "Bonus": -15,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Disavowed Weapons",
+      "Desc": "",
+      "afectedSkill": "Thrust",
+      "Bonus": -15,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Disavowed Weapons",
+      "Desc": "",
+      "afectedSkill": "Slings",
+      "Bonus": -15,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Unique Look (Greater)",
+      "Desc": "You have a unique look, people always stare at you and notices it. you cannot conceal it, you suffer a -20 to appearance and people react extremely to it.",
+      "afectedSkill": "Appearance",
+      "Bonus": -20,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Unique Look (Major)",
+      "Desc": "You have a unique look, people always stare at you and notices it, you can conceal it, whether by using a cloak, some product or special clothing. If people see it they will have a negative reaction to it, you suffer a -10 to appearance",
+      "afectedSkill": "Appearance",
+      "Bonus": -10,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Wimp",
+      "Desc": "You are a wimp, you suffer a penalty of -20 to all the athletic skills, a -2 to your St bonus and you can travel 2 hours less than usual.",
+      "afectedSkill": "st",
+      "Bonus": -2,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Wimp",
+      "Desc": "",
+      "afectedSkill": "Athletic Nimble",
+      "Bonus": -20,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Wimp",
+      "Desc": "",
+      "afectedSkill": "Athletic Stamina",
+      "Bonus": -20,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "One Eye",
+      "Desc": "You have lost one of your eyes. Your fire missile weapons with a special penalty of -25",
+      "afectedSkill": "Misile",
+      "Bonus": -25,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "One Eye",
+      "Desc": "",
+      "afectedSkill": "Misile Powder",
+      "Bonus": -25,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "One Eye",
+      "Desc": "",
+      "afectedSkill": "Thrown",
+      "Bonus": -25,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "One Eye",
+      "Desc": "",
+      "afectedSkill": "Slings",
+      "Bonus": -25,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Oblivious",
+      "Desc": "You have a hard time noticing things. You receive a penalty of -15 to your perception maneuvers",
+      "afectedSkill": "Awareness",
+      "Bonus": -15,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Not Subtle",
+      "Desc": "You are not quiet or subtle, you get a special penalty of -10 to all your skills in the subterfuge category, in addition you receive a -15 to the stalking and hiding skill",
+      "afectedSkill": "Subterfuge Active",
+      "Bonus": -10,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "",
+      "Desc": "",
+      "afectedSkill": "Subterfuge Passive",
+      "Bonus": -10,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "",
+      "Desc": "",
+      "afectedSkill": "Stalking/Hiding",
+      "Bonus": -15,
+      "Assign": 0,
+      "TotalBonus": 0
+    },
+    {
+      "Name": "Ignoble",
+      "Desc": "you have -20 to all intrigue skills but composure",
+      "afectedSkill": "XXXXX",
+      "Bonus": -20,
+      "Assign": 0,
+      "TotalBonus": 0
+    }
+   ]

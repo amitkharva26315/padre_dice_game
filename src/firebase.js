@@ -26,11 +26,14 @@ const commentsCollection = db.collection('comments')
 const likesCollection = db.collection('likes')
 
 const employeeCollection = db.collection('employee')
-// const stateProgressionCollection = db.collection('state_progression')
-// const statsCollection = db.collection('stats')
-// const tablasRanksCollection = db.collection('tablas_ranks')
-// const categoriesCollection = db.collection('categories')
-// const talentsTablesCollection = db.collection('talents_tables')
+
+const stateProgressionCollection = db.collection('state_progression')
+const statsCollection = db.collection('stats')
+const tablasRanksCollection = db.collection('tablas_ranks')
+const categoriesCollection = db.collection('category')
+const talentsTablesCollection = db.collection('talents_tables')
+const identityCollection = db.collection('identity')
+const talentsTablesPivotCollection = db.collection('talents_tables_pivot')
 
 // export utils/refs
 export {
@@ -40,10 +43,12 @@ export {
   postsCollection,
   commentsCollection,
   likesCollection,
-  employeeCollection
-  // stateProgressionCollection,
-  // statsCollection,
-  // tablasRanksCollection,
-  // categoriesCollection,
-  // talentsTablesCollection
+  employeeCollection,
+  stateProgressionCollection,
+  statsCollection,
+  tablasRanksCollection,
+  categoriesCollection,
+  talentsTablesCollection,
+  identityCollection,
+  talentsTablesPivotCollection
 }

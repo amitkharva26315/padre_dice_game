@@ -1,0 +1,74 @@
+[
+    {
+      "Name": "Strength",
+      "Alias": "st",
+      "Stats": 54,
+      "Bonus": 1,
+      "Race": 0,
+      "Spec": 0,
+      "Total": 1
+    },
+    {
+      "Name": "Constitution",
+      "Alias": "co",
+      "Stats": 59,
+      "Bonus": 2,
+      "Race": 0,
+      "Spec": 0,
+      "Total": 2
+    },
+    {
+      "Name": "Agility",
+      "Alias": "ag",
+      "Stats": 60,
+      "Bonus": 2,
+      "Race": 0,
+      "Spec": 0,
+      "Total": 2
+    },
+    {
+      "Name": "Quickness",
+      "Alias": "qu",
+      "Stats": 65,
+      "Bonus": 3,
+      "Race": 0,
+      "Spec": 0,
+      "Total": 3
+    },
+    {
+      "Name": "Self Discipline",
+      "Alias": "sd",
+      "Stats": 100,
+      "Bonus": 11,
+      "Race": 0,
+      "Spec": 5,
+      "Total": 16
+    },
+    {
+      "Name": "Reasoning",
+      "Alias": "re",
+      "Stats": 82,
+      "Bonus": 7,
+      "Race": 0,
+      "Spec": 5,
+      "Total": 12
+    },
+    {
+      "Name": "Insight",
+      "Alias": "in",
+      "Stats": 70,
+      "Bonus": 4,
+      "Race": 0,
+      "Spec": 5,
+      "Total": 9
+    },
+    {
+      "Name": "Presence",
+      "Alias": "pr",
+      "Stats": 76,
+      "Bonus": 6,
+      "Race": 0,
+      "Spec": 0,
+      "Total": 6
+    }
+   ]

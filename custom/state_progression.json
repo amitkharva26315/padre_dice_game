@@ -1,0 +1,632 @@
+[
+  {
+    "STAT": 1,
+    "Bonus": -18,
+    "DPs": 0,
+    "Cost SKILL": 15
+  },
+  {
+    "STAT": 2,
+    "Bonus": -18,
+    "DPs": 0,
+    "Cost SKILL": 15
+  },
+  {
+    "STAT": 3,
+    "Bonus": -18,
+    "DPs": 0,
+    "Cost SKILL": 15
+  },
+  {
+    "STAT": 4,
+    "Bonus": -18,
+    "DPs": 0,
+    "Cost SKILL": 15
+  },
+  {
+    "STAT": 5,
+    "Bonus": -18,
+    "DPs": 0,
+    "Cost SKILL": 15
+  },
+  {
+    "STAT": 6,
+    "Bonus": -16,
+    "DPs": 0,
+    "Cost SKILL": 15
+  },
+  {
+    "STAT": 7,
+    "Bonus": -16,
+    "DPs": 0,
+    "Cost SKILL": 15
+  },
+  {
+    "STAT": 8,
+    "Bonus": -16,
+    "DPs": 0,
+    "Cost SKILL": 15
+  },
+  {
+    "STAT": 9,
+    "Bonus": -16,
+    "DPs": 0,
+    "Cost SKILL": 15
+  },
+  {
+    "STAT": 10,
+    "Bonus": -16,
+    "DPs": 0,
+    "Cost SKILL": 15
+  },
+  {
+    "STAT": 11,
+    "Bonus": -14,
+    "DPs": 0,
+    "Cost SKILL": 15
+  },
+  {
+    "STAT": 12,
+    "Bonus": -14,
+    "DPs": 0,
+    "Cost SKILL": 15
+  },
+  {
+    "STAT": 13,
+    "Bonus": -14,
+    "DPs": 0,
+    "Cost SKILL": 15
+  },
+  {
+    "STAT": 14,
+    "Bonus": -14,
+    "DPs": 0,
+    "Cost SKILL": 15
+  },
+  {
+    "STAT": 15,
+    "Bonus": -14,
+    "DPs": 0,
+    "Cost SKILL": 15
+  },
+  {
+    "STAT": 16,
+    "Bonus": -12,
+    "DPs": 0,
+    "Cost SKILL": 10
+  },
+  {
+    "STAT": 17,
+    "Bonus": -12,
+    "DPs": 0,
+    "Cost SKILL": 10
+  },
+  {
+    "STAT": 18,
+    "Bonus": -12,
+    "DPs": 0,
+    "Cost SKILL": 10
+  },
+  {
+    "STAT": 19,
+    "Bonus": -12,
+    "DPs": 0,
+    "Cost SKILL": 10
+  },
+  {
+    "STAT": 20,
+    "Bonus": -12,
+    "DPs": 0,
+    "Cost SKILL": 10
+  },
+  {
+    "STAT": 21,
+    "Bonus": -10,
+    "DPs": 0,
+    "Cost SKILL": 10
+  },
+  {
+    "STAT": 22,
+    "Bonus": -10,
+    "DPs": 0,
+    "Cost SKILL": 10
+  },
+  {
+    "STAT": 23,
+    "Bonus": -10,
+    "DPs": 0,
+    "Cost SKILL": 10
+  },
+  {
+    "STAT": 24,
+    "Bonus": -10,
+    "DPs": 0,
+    "Cost SKILL": 10
+  },
+  {
+    "STAT": 25,
+    "Bonus": -10,
+    "DPs": 0,
+    "Cost SKILL": 10
+  },
+  {
+    "STAT": 26,
+    "Bonus": -8,
+    "DPs": 0,
+    "Cost SKILL": 10
+  },
+  {
+    "STAT": 27,
+    "Bonus": -8,
+    "DPs": 0,
+    "Cost SKILL": 10
+  },
+  {
+    "STAT": 28,
+    "Bonus": -8,
+    "DPs": 0,
+    "Cost SKILL": 10
+  },
+  {
+    "STAT": 29,
+    "Bonus": -8,
+    "DPs": 0,
+    "Cost SKILL": 10
+  },
+  {
+    "STAT": 30,
+    "Bonus": -8,
+    "DPs": 0,
+    "Cost SKILL": 10
+  },
+  {
+    "STAT": 31,
+    "Bonus": -6,
+    "DPs": 0,
+    "Cost SKILL": 6
+  },
+  {
+    "STAT": 32,
+    "Bonus": -6,
+    "DPs": 0,
+    "Cost SKILL": 6
+  },
+  {
+    "STAT": 33,
+    "Bonus": -6,
+    "DPs": 0,
+    "Cost SKILL": 6
+  },
+  {
+    "STAT": 34,
+    "Bonus": -6,
+    "DPs": 0,
+    "Cost SKILL": 6
+  },
+  {
+    "STAT": 35,
+    "Bonus": -6,
+    "DPs": 0,
+    "Cost SKILL": 6
+  },
+  {
+    "STAT": 36,
+    "Bonus": -4,
+    "DPs": 0,
+    "Cost SKILL": 6
+  },
+  {
+    "STAT": 37,
+    "Bonus": -4,
+    "DPs": 0,
+    "Cost SKILL": 6
+  },
+  {
+    "STAT": 38,
+    "Bonus": -4,
+    "DPs": 0,
+    "Cost SKILL": 6
+  },
+  {
+    "STAT": 39,
+    "Bonus": -4,
+    "DPs": 0,
+    "Cost SKILL": 6
+  },
+  {
+    "STAT": 40,
+    "Bonus": -4,
+    "DPs": 0,
+    "Cost SKILL": 6
+  },
+  {
+    "STAT": 41,
+    "Bonus": -2,
+    "DPs": 0,
+    "Cost SKILL": 5
+  },
+  {
+    "STAT": 42,
+    "Bonus": -2,
+    "DPs": 0,
+    "Cost SKILL": 5
+  },
+  {
+    "STAT": 43,
+    "Bonus": -2,
+    "DPs": 0,
+    "Cost SKILL": 5
+  },
+  {
+    "STAT": 44,
+    "Bonus": -2,
+    "DPs": 0,
+    "Cost SKILL": 5
+  },
+  {
+    "STAT": 45,
+    "Bonus": -2,
+    "DPs": 0,
+    "Cost SKILL": 5
+  },
+  {
+    "STAT": 46,
+    "Bonus": 0,
+    "DPs": 0,
+    "Cost SKILL": 5
+  },
+  {
+    "STAT": 47,
+    "Bonus": 0,
+    "DPs": 0,
+    "Cost SKILL": 5
+  },
+  {
+    "STAT": 48,
+    "Bonus": 0,
+    "DPs": 0,
+    "Cost SKILL": 5
+  },
+  {
+    "STAT": 49,
+    "Bonus": 0,
+    "DPs": 0,
+    "Cost SKILL": 5
+  },
+  {
+    "STAT": 50,
+    "Bonus": 0,
+    "DPs": 0,
+    "Cost SKILL": 5
+  },
+  {
+    "STAT": 51,
+    "Bonus": 1,
+    "DPs": 1,
+    "Cost SKILL": 4
+  },
+  {
+    "STAT": 52,
+    "Bonus": 1,
+    "DPs": 1,
+    "Cost SKILL": 4
+  },
+  {
+    "STAT": 53,
+    "Bonus": 1,
+    "DPs": 1,
+    "Cost SKILL": 4
+  },
+  {
+    "STAT": 54,
+    "Bonus": 1,
+    "DPs": 1,
+    "Cost SKILL": 4
+  },
+  {
+    "STAT": 55,
+    "Bonus": 1,
+    "DPs": 1,
+    "Cost SKILL": 4
+  },
+  {
+    "STAT": 56,
+    "Bonus": 2,
+    "DPs": 2,
+    "Cost SKILL": 4
+  },
+  {
+    "STAT": 57,
+    "Bonus": 2,
+    "DPs": 2,
+    "Cost SKILL": 4
+  },
+  {
+    "STAT": 58,
+    "Bonus": 2,
+    "DPs": 2,
+    "Cost SKILL": 4
+  },
+  {
+    "STAT": 59,
+    "Bonus": 2,
+    "DPs": 2,
+    "Cost SKILL": 4
+  },
+  {
+    "STAT": 60,
+    "Bonus": 2,
+    "DPs": 2,
+    "Cost SKILL": 4
+  },
+  {
+    "STAT": 61,
+    "Bonus": 3,
+    "DPs": 3,
+    "Cost SKILL": 4
+  },
+  {
+    "STAT": 62,
+    "Bonus": 3,
+    "DPs": 3,
+    "Cost SKILL": 4
+  },
+  {
+    "STAT": 63,
+    "Bonus": 3,
+    "DPs": 3,
+    "Cost SKILL": 4
+  },
+  {
+    "STAT": 64,
+    "Bonus": 3,
+    "DPs": 3,
+    "Cost SKILL": 4
+  },
+  {
+    "STAT": 65,
+    "Bonus": 3,
+    "DPs": 3,
+    "Cost SKILL": 4
+  },
+  {
+    "STAT": 66,
+    "Bonus": 4,
+    "DPs": 4,
+    "Cost SKILL": 4
+  },
+  {
+    "STAT": 67,
+    "Bonus": 4,
+    "DPs": 4,
+    "Cost SKILL": 4
+  },
+  {
+    "STAT": 68,
+    "Bonus": 4,
+    "DPs": 4,
+    "Cost SKILL": 4
+  },
+  {
+    "STAT": 69,
+    "Bonus": 4,
+    "DPs": 4,
+    "Cost SKILL": 4
+  },
+  {
+    "STAT": 70,
+    "Bonus": 4,
+    "DPs": 4,
+    "Cost SKILL": 4
+  },
+  {
+    "STAT": 71,
+    "Bonus": 5,
+    "DPs": 5,
+    "Cost SKILL": 3
+  },
+  {
+    "STAT": 72,
+    "Bonus": 5,
+    "DPs": 5,
+    "Cost SKILL": 3
+  },
+  {
+    "STAT": 73,
+    "Bonus": 5,
+    "DPs": 5,
+    "Cost SKILL": 3
+  },
+  {
+    "STAT": 74,
+    "Bonus": 5,
+    "DPs": 5,
+    "Cost SKILL": 3
+  },
+  {
+    "STAT": 75,
+    "Bonus": 5,
+    "DPs": 5,
+    "Cost SKILL": 3
+  },
+  {
+    "STAT": 76,
+    "Bonus": 6,
+    "DPs": 6,
+    "Cost SKILL": 3
+  },
+  {
+    "STAT": 77,
+    "Bonus": 6,
+    "DPs": 6,
+    "Cost SKILL": 3
+  },
+  {
+    "STAT": 78,
+    "Bonus": 6,
+    "DPs": 6,
+    "Cost SKILL": 3
+  },
+  {
+    "STAT": 79,
+    "Bonus": 6,
+    "DPs": 6,
+    "Cost SKILL": 3
+  },
+  {
+    "STAT": 80,
+    "Bonus": 6,
+    "DPs": 6,
+    "Cost SKILL": 3
+  },
+  {
+    "STAT": 81,
+    "Bonus": 7,
+    "DPs": 7,
+    "Cost SKILL": 3
+  },
+  {
+    "STAT": 82,
+    "Bonus": 7,
+    "DPs": 7,
+    "Cost SKILL": 3
+  },
+  {
+    "STAT": 83,
+    "Bonus": 7,
+    "DPs": 7,
+    "Cost SKILL": 3
+  },
+  {
+    "STAT": 84,
+    "Bonus": 7,
+    "DPs": 7,
+    "Cost SKILL": 3
+  },
+  {
+    "STAT": 85,
+    "Bonus": 7,
+    "DPs": 7,
+    "Cost SKILL": 3
+  },
+  {
+    "STAT": 86,
+    "Bonus": 8,
+    "DPs": 8,
+    "Cost SKILL": 2
+  },
+  {
+    "STAT": 87,
+    "Bonus": 8,
+    "DPs": 8,
+    "Cost SKILL": 2
+  },
+  {
+    "STAT": 88,
+    "Bonus": 8,
+    "DPs": 8,
+    "Cost SKILL": 2
+  },
+  {
+    "STAT": 89,
+    "Bonus": 8,
+    "DPs": 8,
+    "Cost SKILL": 2
+  },
+  {
+    "STAT": 90,
+    "Bonus": 8,
+    "DPs": 8,
+    "Cost SKILL": 2
+  },
+  {
+    "STAT": 91,
+    "Bonus": 9,
+    "DPs": 9,
+    "Cost SKILL": 2
+  },
+  {
+    "STAT": 92,
+    "Bonus": 9,
+    "DPs": 9,
+    "Cost SKILL": 2
+  },
+  {
+    "STAT": 93,
+    "Bonus": 9,
+    "DPs": 9,
+    "Cost SKILL": 2
+  },
+  {
+    "STAT": 94,
+    "Bonus": 9,
+    "DPs": 9,
+    "Cost SKILL": 2
+  },
+  {
+    "STAT": 95,
+    "Bonus": 9,
+    "DPs": 9,
+    "Cost SKILL": 2
+  },
+  {
+    "STAT": 96,
+    "Bonus": 10,
+    "DPs": 10,
+    "Cost SKILL": 2
+  },
+  {
+    "STAT": 97,
+    "Bonus": 10,
+    "DPs": 10,
+    "Cost SKILL": 2
+  },
+  {
+    "STAT": 98,
+    "Bonus": 10,
+    "DPs": 10,
+    "Cost SKILL": 2
+  },
+  {
+    "STAT": 99,
+    "Bonus": 10,
+    "DPs": 10,
+    "Cost SKILL": 2
+  },
+  {
+    "STAT": 100,
+    "Bonus": 11,
+    "DPs": 11,
+    "Cost SKILL": 2
+  },
+  {
+    "STAT": 101,
+    "Bonus": 12,
+    "DPs": 12,
+    "Cost SKILL": 2
+  },
+  {
+    "STAT": 102,
+    "Bonus": 13,
+    "DPs": 13,
+    "Cost SKILL": 2
+  },
+  {
+    "STAT": 103,
+    "Bonus": 14,
+    "DPs": 14,
+    "Cost SKILL": 2
+  },
+  {
+    "STAT": 104,
+    "Bonus": 15,
+    "DPs": 15,
+    "Cost SKILL": 2
+  },
+  {
+    "STAT": 105,
+    "Bonus": 16,
+    "DPs": 16,
+    "Cost SKILL": 2
+  }
+]
