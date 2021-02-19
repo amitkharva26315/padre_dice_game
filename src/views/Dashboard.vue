@@ -64,7 +64,7 @@
     </section>
 
     <!-- full post modal -->
-    <transition name="fade">
+    <!-- <transition name="fade">
       <div v-if="showPostModal" class="p-modal">
         <div class="p-container">
           <a @click="closePostModal()" class="close">close</a>
@@ -86,7 +86,7 @@
           </div>
         </div>
       </div>
-    </transition>
+    </transition> -->
   </div>
 </template>
 
@@ -179,7 +179,8 @@ export default {
       return moment(date).fromNow()
     },
     trimLength(val) {
-      if (val.length < 200) { return val }
+      if(!val) {return ""}
+      if (val && val.length < 200) { return val }
       return `${val.substring(0, 200)}...`
     }
   }

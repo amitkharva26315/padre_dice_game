@@ -1,0 +1,29 @@
+=IFERROR(
+	INDEX(
+		StatProgression, 
+		MATCH(
+			INDEX(
+				Stats, 
+				MATCH(
+					DP-Allocation(Input),
+					Stats(code),
+					0
+				),
+				3
+			),
+			StatProgression,
+			0
+		),
+		4
+	), 
+	"-"
+)
+
+
+const dp_allocation = 1; // input
+const stats = [];
+const StatProgression = [];
+
+if(stats.filter(stat => stat.Alias == dp_allocation).length>0){
+
+}
