@@ -5,39 +5,9 @@ import router from '../router/index'
 
 Vue.use(Vuex)
 
-// realtime firebase
-fb.postsCollection.orderBy('createdOn', 'desc').onSnapshot(snapshot => {
-  let postsArray = []
-
-  snapshot.forEach(doc => {
-    let post = doc.data()
-    post.id = doc.id
-
-    postsArray.push(post)
-  })
-
-  store.commit('setPosts', postsArray)
-})
-
-
-fb.employeeCollection.onSnapshot(snapshot => {
-  let employeesArray = []
-
-  snapshot.forEach(doc => {
-    let employee = doc.data()
-    employee.id = doc.id
-
-    employeesArray.push(employee)
-  })
-
-  store.commit('setEmployees', employeesArray)
-})
-
 const store = new Vuex.Store({
   state: {
     userProfile: {},
-    posts: [],
-    employees: [],
     general_skills: {}
   },
   mutations: {
@@ -46,12 +16,6 @@ const store = new Vuex.Store({
     },
     setPerformingRequest(state, val) {
       state.performingRequest = val
-    },
-    setPosts(state, val) {
-      state.posts = val
-    },
-    setEmployees(state, val) {
-      state.employees = val
     },
     setGeneralSkill(state, val) {
       state.general_skills = val
@@ -197,32 +161,6 @@ const store = new Vuex.Store({
       }
       // }
       // console.log(statsDocs);
-      // statsDocs.forEach(doc => {
-      //   console.log(doc.data());
-      //   // fb.postsCollection.doc(doc.id).update({
-      //   //   userName: user.name
-      //   // })
-      // })
-    },
-    async createEmployee({ state, commit }, employee) {
-      // create employee in firebase
-      await fb.employeeCollection.add({
-        createdOn: new Date(),
-        content: employee.content,
-        userId: fb.auth.currentUser.uid,
-        userName: state.userProfile.name
-      })
-    },
-    async updateEmployee({ state, commit }, employee) {
-      // update employee in firebase
-      await fb.employeeCollection.doc(employee.id).update({
-        content: employee.content
-      })
-    },
-    async deleteEmployee({ state, commit }, employee_id) {
-      console.log(employee_id);
-      // update employee in firebase
-      await fb.employeeCollection.doc(employee_id).delete()
     },
     async login({ dispatch }, form) {
       // sign user in
@@ -266,36 +204,6 @@ const store = new Vuex.Store({
       // redirect to login view
       router.push('/login')
     },
-    async createPost({ state, commit }, post) {
-      // create post in firebase
-      await fb.postsCollection.add({
-        createdOn: new Date(),
-        content: post.content,
-        userId: fb.auth.currentUser.uid,
-        userName: state.userProfile.name,
-        comments: 0,
-        likes: 0
-      })
-    },
-    async likePost({ commit }, post) {
-      const userId = fb.auth.currentUser.uid
-      const docId = `${userId}_${post.id}`
-
-      // check if user has liked post
-      const doc = await fb.likesCollection.doc(docId).get()
-      if (doc.exists) { return }
-
-      // create post
-      await fb.likesCollection.doc(docId).set({
-        postId: post.id,
-        userId: userId
-      })
-
-      // update post likes count
-      fb.postsCollection.doc(post.id).update({
-        likes: post.likesCount + 1
-      })
-    },
     async updateProfile({ dispatch }, user) {
       const userId = fb.auth.currentUser.uid
       // update user object
@@ -305,22 +213,6 @@ const store = new Vuex.Store({
       })
 
       dispatch('fetchUserProfile', { uid: userId })
-
-      // update all posts by user
-      const postDocs = await fb.postsCollection.where('userId', '==', userId).get()
-      postDocs.forEach(doc => {
-        fb.postsCollection.doc(doc.id).update({
-          userName: user.name
-        })
-      })
-
-      // update all comments by user
-      const commentDocs = await fb.commentsCollection.where('userId', '==', userId).get()
-      commentDocs.forEach(doc => {
-        fb.commentsCollection.doc(doc.id).update({
-          userName: user.name
-        })
-      })
     }
   }
 })

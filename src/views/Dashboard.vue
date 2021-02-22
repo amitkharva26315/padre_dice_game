@@ -1,94 +1,6 @@
 <template>
   <div id="dashboard">
-    <transition name="fade">
-      <CommentModal
-        v-if="showCommentModal"
-        :post="selectedPost"
-        @close="toggleCommentModal()"
-      ></CommentModal>
-    </transition>
     <section>
-      <!-- <div class="col1">
-        <div class="profile">
-          <h5>{{ userProfile.name }}</h5>
-          <p>{{ userProfile.title }}</p>
-          <div class="create-post">
-            <p>create a post</p>
-            <form @submit.prevent>
-              <textarea v-model.trim="post.content"></textarea>
-              <button @click="createPost()" :disabled="post.content === ''" class="button">post</button>
-            </form>
-          </div>
-        </div>
-      </div> -->
-      <!-- <div class="col2">
-        <div v-if="posts.length">
-          <div v-for="post in posts" :key="post.id" class="post">
-            <h5>{{ post.userName }}</h5>
-            <span>{{ post.createdOn | formatDate }}</span>
-            <p>{{ post.content | trimLength }}</p>
-            <ul>
-              <li><a @click="toggleCommentModal(post)">comments {{ post.comments }}</a></li>
-              <li><a @click="likePost(post.id, post.likes)">likes {{ post.likes }}</a></li>
-              <li><a @click="viewPost(post)">view full post</a></li>
-            </ul>
-          </div>
-        </div>
-        <div v-else>
-          <p class="no-results">There are currently no posts</p>
-        </div>
-      </div> -->
-      <!-- <div class="col1">
-        <div class="profile">
-          <h5>{{ userProfile.name }}</h5>
-          <p>{{ userProfile.title }}</p>
-          <div class="create-post">
-            <p>create a employee</p>
-            <form @submit.prevent>
-              <textarea v-model.trim="employee.content"></textarea>
-              <button @click="createEmployee()" :disabled="employee.content === ''" class="button">Create Employee</button>
-              <button @click="updateEmployee()" :disabled="employee.content === ''" class="button">Update Employee</button>
-            </form>
-          </div>
-        </div>
-      </div>
-      <div class="col2">
-        <div v-if="employees.length">
-          <div v-for="employee in employees" :key="employee.id" class="post">
-            <p>{{ employee.content | trimLength }}</p>
-            <button type="button" @click="editEmployee(employee)">edit</button>
-            <button type="button" @click="deleteEmployee(employee.id)">delete</button>
-          </div>
-        </div>
-        <div v-else>
-          <p class="no-results">There are currently no employees</p>
-        </div>
-      </div> -->
-
-      <!-- full post modal -->
-      <!-- <transition name="fade">
-      <div v-if="showPostModal" class="p-modal">
-        <div class="p-container">
-          <a @click="closePostModal()" class="close">close</a>
-          <div class="post">
-            <h5>{{ fullPost.userName }}</h5>
-            <span>{{ fullPost.createdOn | formatDate }}</span>
-            <p>{{ fullPost.content }}</p>
-            <ul>
-              <li><a>comments {{ fullPost.comments }}</a></li>
-              <li><a>likes {{ fullPost.likes }}</a></li>
-            </ul>
-          </div>
-          <div v-show="postComments.length" class="comments">
-            <div v-for="comment in postComments" :key="comment.id" class="comment">
-              <p>{{ comment.userName }}</p>
-              <span>{{ comment.createdOn | formatDate }}</span>
-              <p>{{ comment.content }}</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </transition> -->
       <div style="width: 100%; overflow-x: auto">
         <table border="1" cellpadding="0" cellspacing="0" id="responsive-table">
           <thead>
@@ -203,15 +115,10 @@
 </template>
 
 <script>
-import { commentsCollection } from "@/firebase";
 import { mapState } from "vuex";
 import moment from "moment";
-import CommentModal from "@/components/CommentModal";
 
 export default {
-  components: {
-    CommentModal,
-  },
   data() {
     return {
       generalSkills: {
@@ -228,22 +135,10 @@ export default {
         Special: 0,
         Total: 0,
       },
-      post: {
-        content: "",
-      },
-      employee: {
-        id: "",
-        content: "",
-      },
-      showCommentModal: false,
-      selectedPost: {},
-      showPostModal: false,
-      fullPost: {},
-      postComments: [],
     };
   },
   computed: {
-    ...mapState(["userProfile", "posts", "employees", "general_skills"]),
+    ...mapState(["userProfile", "general_skills"]),
   },
   watch: {
     general_skills: function (val) {
@@ -251,28 +146,6 @@ export default {
       if (this.general_skills.cost) {
         this.generalSkills.cost = this.general_skills.cost;
       }
-      // if (!this.generalSkills.RankValue) {
-      //   this.generalSkills.RankValue = 0;
-      // }
-      // if (!this.generalSkills.CatValue) {
-      //   this.generalSkills.CatValue = 0;
-      // }
-      // if (!this.generalSkills.StatValue) {
-      //   this.generalSkills.StatValue = 0;
-      // }
-      // if (!this.generalSkills.Talent) {
-      //   this.generalSkills.Talent = 0;
-      // }
-      // if (!this.generalSkills.Special) {
-      //   this.generalSkills.Special = 0;
-      // }
-      // console.log("total");
-      // this.generalSkills.Total =
-      //   this.generalSkills.RankValue +
-      //   this.generalSkills.CatValue +
-      //   this.generalSkills.StatValue +
-      //   this.generalSkills.Talent +
-      //   this.generalSkills.Special;
     },
   },
   mounted() {
@@ -283,63 +156,6 @@ export default {
       if (generalSkills.dpAllocation) {
         this.$store.dispatch("calulateGeneralSkills", generalSkills);
       }
-    },
-    createEmployee() {
-      this.$store.dispatch("createEmployee", {
-        content: this.employee.content,
-      });
-      this.employee.content = "";
-    },
-    updateEmployee() {
-      this.$store.dispatch("updateEmployee", {
-        id: this.employee.id,
-        content: this.employee.content,
-      });
-      this.employee.content = "";
-    },
-    editEmployee(employee_data) {
-      this.employee.id = employee_data.id;
-      this.employee.content = employee_data.content;
-    },
-    deleteEmployee(id) {
-      if (confirm("Are you sure want to delete current employee?")) {
-        this.$store.dispatch("deleteEmployee", id);
-      }
-    },
-    createPost() {
-      this.$store.dispatch("createPost", { content: this.post.content });
-      this.post.content = "";
-    },
-    toggleCommentModal(post) {
-      this.showCommentModal = !this.showCommentModal;
-
-      // if opening modal set selectedPost, else clear
-      if (this.showCommentModal) {
-        this.selectedPost = post;
-      } else {
-        this.selectedPost = {};
-      }
-    },
-    likePost(id, likesCount) {
-      this.$store.dispatch("likePost", { id, likesCount });
-    },
-    async viewPost(post) {
-      const docs = await commentsCollection
-        .where("postId", "==", post.id)
-        .get();
-
-      docs.forEach((doc) => {
-        let comment = doc.data();
-        comment.id = doc.id;
-        this.postComments.push(comment);
-      });
-
-      this.fullPost = post;
-      this.showPostModal = true;
-    },
-    closePostModal() {
-      this.postComments = [];
-      this.showPostModal = false;
     },
   },
   filters: {

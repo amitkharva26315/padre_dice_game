@@ -21,12 +21,6 @@ const auth = firebase.auth()
 
 // collection references
 const usersCollection = db.collection('users')
-const postsCollection = db.collection('posts')
-const commentsCollection = db.collection('comments')
-const likesCollection = db.collection('likes')
-
-const employeeCollection = db.collection('employee')
-
 const stateProgressionCollection = db.collection('state_progression')
 const statsCollection = db.collection('stats')
 const tablasRanksCollection = db.collection('tablas_ranks')
@@ -40,10 +34,6 @@ export {
   db,
   auth,
   usersCollection,
-  postsCollection,
-  commentsCollection,
-  likesCollection,
-  employeeCollection,
   stateProgressionCollection,
   statsCollection,
   tablasRanksCollection,
